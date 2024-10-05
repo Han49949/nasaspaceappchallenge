@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Greenhouse Gas Emissions</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Global Greenhouse Gas Emissions</h1>
+    </header>
+
+    <div class="container">
+        <div id="world-map"></div>
+        <div id="chart-container">
+            <canvas id="ghg-chart"></canvas>
+        </div>
+    </div>
+    <select id="region-select">
+        <option value="North America">North America</option>
+        <option value="Europe">Europe</option>
+        <option value="Asia">Asia</option>
+        <option value="Africa">Africa</option>
+        <option value="South America">South America</option>
+        <option value="Australia">Australia</option>
+    </select>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
